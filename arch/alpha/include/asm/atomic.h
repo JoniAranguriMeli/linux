@@ -212,7 +212,7 @@ ATOMIC_OPS(xor, xor)
 
 /**
  * arch_atomic_fetch_add_unless - add unless the number is a given value
- * @v: pointer of type atomic_t
+ * @v: pointer of type atomic_t.
  * @a: the amount to add to v...
  * @u: ...unless v is equal to u.
  *
